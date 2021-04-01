@@ -1,0 +1,99 @@
+
+TSATKOWIAK@9QP7Q13 MINGW64 /
+$ cd c/devbuild4/
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4 (master)
+$ cd assesments/Fall-Guys-Website
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4/assesments/Fall-Guys-Website (master)
+$ ls
+ app.config                              bin/           Properties/
+ appsettings.Development.json            Controllers/   README.md
+ appsettings.json                        FG.gif         Startup.cs
+'Assessment 5 Coffee Shop.csproj'        Models/        Views/
+'Assessment 5 Coffee Shop.csproj.user'   obj/           wwwroot/
+'Assessment 5 Coffee Shop.sln'           Program.cs
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4/assesments/Fall-Guys-Website (master)
+$ ls -a
+ ./                                      Controllers/
+ ../                                     FG.gif
+ .vs/                                    Models/
+ app.config                              obj/
+ appsettings.Development.json            Program.cs
+ appsettings.json                        Properties/
+'Assessment 5 Coffee Shop.csproj'        README.md
+'Assessment 5 Coffee Shop.csproj.user'   Startup.cs
+'Assessment 5 Coffee Shop.sln'           Views/
+ bin/                                    wwwroot/
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4/assesments/Fall-Guys-Website (master)
+$ git init
+Initialized empty Git repository in C:/devbuild4/Assesments/Fall-Guys-Website/.git/
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4/assesments/Fall-Guys-Website (master)
+$ git remote add origin https://github.com/TylerSatkowiak/Fall-Guys.git
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4/assesments/Fall-Guys-Website (master)
+$ git branch -M master
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4/assesments/Fall-Guys-Website (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assessment 5 Coffee Shop.csproj
+        Assessment 5 Coffee Shop.csproj.user
+        Assessment 5 Coffee Shop.sln
+        Controllers/
+        FG.gif
+        Models/
+        Program.cs
+        Properties/
+        README.md
+        Startup.cs
+        Views/
+        app.config
+        appsettings.Development.json
+        appsettings.json
+        bin/
+        obj/
+        wwwroot/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4/assesments/Fall-Guys-Website (master)
+$ git add .
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4/assesments/Fall-Guys-Website (master)
+$ git commit -a -m "Files"
+[master (root-commit) 2788964] Files
+ 456 files changed, 45829 insertions(+)
+ create mode 100644 Assessment 5 Coffee Shop.csproj
+~~~~~~~~~~~~~~~~
+ create mode 100644 wwwroot/lib/jquery/dist/jquery.min.map
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4/assesments/Fall-Guys-Website (master)
+$ git branch -M master
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4/assesments/Fall-Guys-Website (master)
+$ git push -u origin master
+Enumerating objects: 381, done.
+Counting objects: 100% (381/381), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (368/368), done.
+Writing objects:   1% (7/381), 7.79 MiB | 7.57 MWriting objects:   2% (8/381), 7.79 MiB | 7.57 MWriting objects:   3% (12/381), 7.79 MiB | 7.57 Writing objects:   4% (16/381), 7.79 MiB | 7.57 Writing objects:   5% (20/381), 7.79 MiB | 7.57 Writing objects:   6% (23/381), 7.79 MiB | 7.57 Writing objects:   7% (27/381), 7.79 MiB | 7.57 Writing objects:   8% (31/381), 7.79 MiB | 7.57 Writing objects:   9% (35/381), 7.79 MiB | 7.57 Writing objects:  10% (39/381), 7.79 MiB | 7.57 Writing objects:  11% (43/381), 7.79 MiB | 7.57 Writing objects:  12% (46/381), 7.79 MiB | 7.57 Writing objects:  13% (50/381), 7.79 MiB | 7.57 Writing objects:  14% (54/381), 7.79 MiB | 7.57 Writing objects:  15% (58/381), 7.79 MiB | 7.57 Writing objects:  16% (61/381), 7.79 MiB | 7.57 Writing objects:  17% (66/381), 7.79 MiB | 7.57 Writing objects:  18% (69/381), 12.05 MiB | 7.89Writing objects:  19% (73/381), 12.05 MiB | 7.89Writing objects:  20% (77/381), 12.05 MiB | 7.89Writing objects:  21% (81/381), 12.05 MiB | 7.89Writing objects:  22% (84/381), 12.05 MiB | 7.89Writing objects:  23% (88/381), 12.05 MiB | 7.89Writing objects:  24% (92/381), 12.05 MiB | 7.89Writing objects:  25% (97/381), 12.05 MiB | 7.89Writing objects:  26% (100/381), 12.05 MiB | 7.8Writing objects:  27% (103/381), 12.05 MiB | 7.8Writing objects:  28% (107/381), 14.91 MiB | 7.3Writing objects:  29% (111/381), 17.86 MiB | 7.0Writing objects:  30% (115/381), 17.86 MiB | 7.0Writing objects:  31% (119/381), 17.86 MiB | 7.0Writing objects:  32% (122/381), 17.86 MiB | 7.0Writing objects:  33% (126/381), 17.86 MiB | 7.0Writing objects:  34% (130/381), 17.86 MiB | 7.0Writing objects:  35% (134/381), 17.86 MiB | 7.0Writing objects:  36% (138/381), 17.86 MiB | 7.0Writing objects:  37% (141/381), 17.86 MiB | 7.0Writing objects:  38% (145/381), 17.86 MiB | 7.0Writing objects:  39% (149/381), 17.86 MiB | 7.0Writing objects:  40% (153/381), 17.86 MiB | 7.0Writing objects:  41% (157/381), 17.86 MiB | 7.0Writing objects:  42% (161/381), 17.86 MiB | 7.0Writing objects:  43% (164/381), 17.86 MiB | 7.0Writing objects:  44% (169/381), 17.86 MiB | 7.0Writing objects:  45% (173/381), 17.86 MiB | 7.0Writing objects:  46% (176/381), 17.86 MiB | 7.0Writing objects:  47% (180/381), 17.86 MiB | 7.0Writing objects:  48% (184/381), 17.86 MiB | 7.0Writing objects:  49% (188/381), 17.86 MiB | 7.0Writing objects:  50% (191/381), 17.86 MiB | 7.0Writing objects:  51% (195/381), 17.86 MiB | 7.0Writing objects:  52% (199/381), 20.28 MiB | 6.6Writing objects:  53% (202/381), 20.28 MiB | 6.6Writing objects:  54% (208/381), 20.28 MiB | 6.6Writing objects:  55% (211/381), 20.28 MiB | 6.6Writing objects:  56% (214/381), 20.28 MiB | 6.6Writing objects:  57% (218/381), 20.28 MiB | 6.6Writing objects:  58% (221/381), 20.28 MiB | 6.6Writing objects:  59% (225/381), 20.28 MiB | 6.6Writing objects:  60% (229/381), 20.28 MiB | 6.6Writing objects:  61% (235/381), 20.28 MiB | 6.6Writing objects:  62% (237/381), 20.28 MiB | 6.6Writing objects:  63% (242/381), 20.28 MiB | 6.6Writing objects:  64% (244/381), 20.28 MiB | 6.6Writing objects:  65% (248/381), 20.28 MiB | 6.6Writing objects:  66% (253/381), 20.28 MiB | 6.6Writing objects:  67% (257/381), 20.28 MiB | 6.6Writing objects:  68% (260/381), 20.28 MiB | 6.6Writing objects:  69% (263/381), 20.28 MiB | 6.6Writing objects:  70% (267/381), 20.28 MiB | 6.6Writing objects:  71% (271/381), 20.28 MiB | 6.6Writing objects:  72% (275/381), 20.28 MiB | 6.6Writing objects:  73% (279/381), 20.28 MiB | 6.6Writing objects:  74% (282/381), 20.28 MiB | 6.6Writing objects:  75% (286/381), 20.28 MiB | 6.6Writing objects:  76% (290/381), 20.28 MiB | 6.6Writing objects:  77% (294/381), 20.28 MiB | 6.6Writing objects:  78% (298/381), 20.28 MiB | 6.6Writing objects:  79% (301/381), 20.28 MiB | 6.6Writing objects:  80% (305/381), 20.28 MiB | 6.6Writing objects:  81% (309/381), 20.28 MiB | 6.6Writing objects:  82% (313/381), 20.28 MiB | 6.6Writing objects:  83% (317/381), 20.28 MiB | 6.6Writing objects:  84% (321/381), 20.28 MiB | 6.6Writing objects:  85% (324/381), 20.28 MiB | 6.6Writing objects:  86% (328/381), 20.28 MiB | 6.6Writing objects:  87% (332/381), 21.98 MiB | 6.2Writing objects:  88% (336/381), 21.98 MiB | 6.2Writing objects:  89% (340/381), 21.98 MiB | 6.2Writing objects:  90% (343/381), 21.98 MiB | 6.2Writing objects:  91% (350/381), 21.98 MiB | 6.2Writing objects:  92% (352/381), 21.98 MiB | 6.2Writing objects:  93% (355/381), 21.98 MiB | 6.2Writing objects:  94% (359/381), 21.98 MiB | 6.2Writing objects:  95% (362/381), 21.98 MiB | 6.2Writing objects:  96% (366/381), 21.98 MiB | 6.2Writing objects:  97% (370/381), 21.98 MiB | 6.2Writing objects:  97% (373/381), 21.98 MiB | 6.2Writing objects:  98% (374/381), 21.98 MiB | 6.2Writing objects:  99% (378/381), 21.98 MiB | 6.2Writing objects: 100% (381/381), 21.98 MiB | 6.2Writing objects: 100% (381/381), 22.60 MiB | 5.55 MiB/s, done.
+Total 381 (delta 136), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (136/136), done.
+To https://github.com/TylerSatkowiak/Fall-Guys.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+TSATKOWIAK@9QP7Q13 MINGW64 /c/devbuild4/assesments/Fall-Guys-Website (master)
+$

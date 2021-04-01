@@ -1,0 +1,59 @@
+img{
+	opacity: 1.0;
+	max-width: 100%;
+    max-height: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	
+}
+
+.img-background{
+	
+}
+
+img:hover{
+	opacity: .5;
+}
+
+h1{
+	
+	font-size: 70px;
+	letter-spacing: 2px;
+	color:#cc0052;
+	text-align: center;
+}
+
+h2{
+	font-size: 50px;
+	letter-spacing: 2px;
+	color:#f2f2f2;
+	text-align: center;
+}
+
+h3{
+	font-size: 50px;
+	border: 3px solid black;
+	letter-spacing: 2px;
+	color:#f2f2f2;
+}
+
+body{
+	font-size: 100px;
+	letter-spacing: 2px;
+	border: 1px solid black;
+	text-align: left;
+	background-color: #000033;
+}
+
+/* Increased margin since the outline expands outside the element */
+.border-button {
+	outline: dashed 5px #B90D0D;
+	transition: outline 0.6s linear;
+	margin: 0.5em; 
+}
+
+.border-button:hover { 
+	outline-width: 10px;
+}
